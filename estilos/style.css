@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+:root {
+    --Fundo_perincipal:  #0f1115;
+    --Seções:            #1c1f26;
+    --Texto_principal:   #ffffff;
+    --Texto_secundário:  #b0b3b8;
+    --Botões_primários:  #1e90ff;
+    --Botões_alertas:    #ff4d4f;
+    --Destaque_borda:    #2e313a;
+}
+
+/*  Escolha de Fontes
+    Títulos: Poppins, Montserrat ou Robot
+    Texto comum: Robot, Open Sans
+*/
+
+
