@@ -15,4 +15,169 @@
     Texto comum: Robot, Open Sans
 */
 
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--Fundo_perincipal);
+    color: var(--Texto_principal);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px;
+    transition: background-color 0.3 ease;
+    z-index: 10;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header.scrolled  {
+    background-color: #0f1115d0;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    padding: 10px;
+}
+
+nav {
+    background-color: #0f1115c0;
+    padding: 12px;
+    border-radius: 20px;
+    border: 2px solid #25d366;
+}
+
+.navbar nav a {
+    color:  white;
+    font-size: 18px;
+    padding-left: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color .3s;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav a:hover {
+    color: #25d366;
+    text-decoration: underline;
+}
+
+.hamburguer {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#cta {
+    background-color: #25d366;
+    color: white;
+    border-radius: 20px;
+    padding: 15px  25px;
+    text-decoration: none;
+    font-weight: 500;
+    transition:  background-color 0.3s ease;
+    box-shadow: 1px 1px 15px 6px #055825;
+    margin-right: 40px;
+}
+
+#cta:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 15px 6px #25d366;
+    background-color: #055825;
+}
+
+#carvani {
+    margin-left: 40px;
+    padding: 10px;
+}
+
+#sec1 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.carrossel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto-fixo {
+    margin-top: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    background-color: #0f1115e8;
+    padding: 20px;
+    border-radius: 16px;
+    width: 80%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-fixo h1 {
+    font-size: 48px;
+    padding: 10px;
+}
+
+.texto-fixo h2 {
+    font-size: 38px;
+    padding: 5px;
+}
+
+.texto-fixo p {
+    font-size: 24px;
+    padding: 5px;
+}
+
+#social > a{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#social > a:hover {
+    color: #25d366;
+    cursor: pointer;
+}
+
 

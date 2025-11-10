@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: row;
+        position: absolute;
+        top: 72px;
+        right: 0px;
+        padding: 10px;
+        padding-top: 10px;
+        background-color: rgba(0, 0, 0, 0.555);
+        width: 100%;
+    }
+
+    .navbar nav a {
+        color: white;
+        font-size: 17px;
+    }
+
+    .menu.Show {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hamburguer {
+       display: flex;
+       font-weight: bold;
+       font-size: 36px;
+    }
+
+    .hamburguer:hover {
+      color: #25d366;
+    }
+
+    
+.texto-fixo h1 {
+     font-size: 38px;
+     padding: 5px;
+}
+
+.texto-fixo h2 {
+     font-size: 28px;
+     padding: 5px;
+}
+
+.texto-fixo p {
+     font-size: 18px;
+     padding: 5px;
+}
+.texto-fixo {
+     margin-top: 55px;
+     height: 80%;
+}
+
+}
