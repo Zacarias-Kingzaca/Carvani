@@ -47,8 +47,17 @@
      padding: 5px;
 }
 .texto-fixo {
-     margin-top: 55px;
-     height: 80%;
+    margin-top: 55px;
+    height: 80%;
+}
+
+#cta {
+    margin-right: 20px;
+}
+
+#carvani {
+    margin-left: 20px;
+    padding: 10px;
 }
 
 }
