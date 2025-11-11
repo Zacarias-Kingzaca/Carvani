@@ -52,10 +52,11 @@ header {
 }
 
 nav {
-    background-color: #0f1115c0;
+    background-color: #0f1115;
     padding: 12px;
     border-radius: 20px;
     border: 2px solid #25d366;
+    box-shadow: 1px 1px 15px 6px #25d3653d;
 }
 
 .navbar nav a {
@@ -103,7 +104,7 @@ nav {
 
 #carvani {
     margin-left: 40px;
-    padding: 10px;
+    color: #25d366;
 }
 
 #sec1 {
@@ -180,4 +181,104 @@ nav {
     cursor: pointer;
 }
 
+#sec2 {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 100px;
+    grid-template-rows: 100px 1fr 1fr 100px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
 
+#camera {
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+#camera img {
+    width: 70%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 15px 6px #25d36583;
+}
+
+#sobre_nos {
+    margin-bottom: 16px;
+    padding: 10px;
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+
+#sobre_nos h1, h2 {
+    color: #25d366;
+}
+
+#sobre_nos p {
+    font-size: 1rem;
+}
+
+#sec3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    height: auto;
+    margin-top: 130px;
+    padding: 160px;
+    gap: 20px;
+}
+
+#h1sober{
+    position: relative;
+    top:260px;
+    text-align: center;
+    color: var(--Texto_principal);
+}
+
+.servico {
+    height: 500px;
+    background-color: var(--Seções);
+    padding: 10px;
+    border-radius: 10px;   
+    box-shadow: 1px 1px 16px 6px #25d36509;
+}
+
+.servico:hover {
+    cursor: pointer;
+}
+
+.servico h3 {
+    padding: 10px;
+    color: #25d365d3;
+}
+
+.servico p {
+    padding: 10px;
+    text-align: left;
+}
+
+.servico button {
+    padding: 10px 14px;
+    background-color: var(--Texto_principal);
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in;
+}
+
+.servico button:hover {
+    background-color: #25d366;
+    cursor: pointer;
+    box-shadow: 1px 1px 15px 6px #25d3653d;
+    color: white;
+}
+
+.SECimg img {
+    width: 100%;
+}
+
+.SECimg img:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+}

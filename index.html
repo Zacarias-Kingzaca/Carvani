@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carvani</title>
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="estilos/mobile.css" media="Screen and (max-width: 768px)">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-svg">
 </head>
 <body>
     <header class="navbar" id="header">
-        <h2 id="carvani">CARVANI</h2>
+        <h1 id="carvani">CARVANI</h1>
         <nav id="menu" class="menu">
             <a href="#sec1">Casa</a>
             <a href="#sec2">Sobre</a>
-            <a href="#sec2">Serviços</a>
-            <a href="#sec2">Depoimentos</a>
+            <a href="#sec3">Serviços</a>
+            <a href="#sec4">Depoimentos</a>
         </nav>
         <div class="hamburguer" onclick="toggleMenu()">
          &#9776
@@ -54,33 +55,46 @@
 
     <section id="sec2">
      
-        <div>
-            <img src="imagem/SEC2.1.jpg" alt="Foto de uma camera de segurança">
+        <div id="camera">
+            <img src="imagem/IMG-20251110-WA0061.jpg" alt="Foto de uma camera de segurança">
         </div>
-        <div>
-            <h1>Sobre Nós</h1>
+        <div id="sobre_nos">
+           <div class="sobre">
+             <h1>Sobre Nós</h1>
+            <br>
             <p>Somos uma empresa especializada em soluções de videomonitoramento inteligente. Atuamos com tecnologia de ponta, oferecendo sistemas confiáveis, acessíveis e fáceis de usar - para residências, Comércios e grandes espaços.
             <br>
             <br>
             Nosso compromisso é proteger o que é importante para você, com descrição, eficiência e suporte técnico dedicado. 
             </p>
+           </div>
+            <br>
+            <div class="sobre">
+                <h2>Por que escolher a Carvani?</h2>
+            <br>
+            <p>&#10003 Equipe técnica qualificada</p>
+            <p>&#10003 Equipamentos de qualidade</p>
+            <p>&#10003 Atendimento personalizado</p>
+            <p>&#10003 Garantia e suporte pós-venda</p>
+
+             </div>
         </div>
     </section>
 
     <!--FINAL DA SEC2-->
-
+    <h1 id="h1sober">Nossos Serviços</h1>
     <section id="sec3">
-        <h1>Nossos Serviços</h1>
 
         <div class="servico">
             <div class="SECimg">
                 <img src="imagem/camera.jpg" alt="camera">
             </div>
             <div class="SECinfo">
-                <h3>Instalação e manunteção<br> de câmeras de vigilância</h3>
+                <h3>Instalação e manunteção de câmeras de vigilância</h3>
                 <p>
                     O preço da instalação depende do local, quantidade de câmeras e equipamentos.  
                 </p>
+                <br><br>
                 <button>Preço Variável</button>
             </div>
         </div>
@@ -90,10 +104,11 @@
                 <img src="imagem/campanhia.jpg" alt="campainha">
             </div>
             <div class="SECinfo">
-                <h3>Montagem de vídeo porteiros<br> e campainhas inteligentes</h3>
+                <h3>Montagem de vídeo porteiros e campainhas inteligentes</h3>
                 <p>
                     O preço da instalação depende do local e quantidade de equipamentos.  
                 </p>
+                <br>
                 <button>Preço Variável</button>
             </div>
         </div>
@@ -103,10 +118,11 @@
                 <img src="imagem/cerca eletrica.jpg" alt="cerca elétrica">
             </div>
             <div class="SECinfo">
-                <h3>Instalação e manunteção<br> de cercas elétricas</h3>
+                <h3>Instalação e manunteção de cercas elétricas</h3>
                 <p>
                     O preço da instalação depende do local e quantidade de equipamentos.  
                 </p>
+                <br><br>
                 <button>Preço Variável</button>
             </div>
         </div>
@@ -116,7 +132,7 @@
                 <img src="imagem/ferramentas.jpg" alt="ferramentas">
             </div>
             <div class="SECinfo">
-                <h3>Reparação e assistência<br> técnica em equipamentos de segurança</h3>
+                <h3>Reparação assistência técnica em equipamentos de segurança</h3>
                 <p>
                     O preço da instalação depende do local, quantidade de câmeras e equipamentos.  
                 </p>
@@ -221,9 +237,9 @@
         </div>
 
         <div id="galeria">
-            <img src="imagem/SEC3.1.jpg" alt="primeira foto da galeria">
-            <img src="imagem/SEC3.2.jpg" alt="segunda foto da galeria">
-            <img src="imagem/SEC3.3.jpg" alt="terceira foto da galeria">
+            <img src="" alt="primeira foto da galeria">
+            <img src="" alt="segunda foto da galeria">
+            <img src="" alt="terceira foto da galeria">
         </div>
     </section>
 

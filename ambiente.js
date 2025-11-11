@@ -26,3 +26,11 @@ const observer = new IntersectionObserver(entries => {
 }, { threshold: 0.6 });
 
 observer.observe(carrossel);
+
+new Swiper('#sec3', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    pagination: {
+        el: 'sec3-pagination', clickable: true,
+    }
+})

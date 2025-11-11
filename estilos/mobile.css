@@ -1,63 +1,116 @@
-@media (max-width: 768px) {
-    .menu {
-        display: none;
-        flex-direction: row;
-        position: absolute;
-        top: 72px;
-        right: 0px;
-        padding: 10px;
-        padding-top: 10px;
-        background-color: rgba(0, 0, 0, 0.555);
-        width: 100%;
-    }
+@charset "utf-8";
 
-    .navbar nav a {
-        color: white;
-        font-size: 17px;
-    }
+.menu {
+    display: none;
+    flex-direction: row;
+    position: absolute;
+    top: 72px;
+    right: 6px;
+    padding: 10px;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 99%;
+}
 
-    .menu.Show {
-        display: flex;
-        justify-content: center;
-    }
+.navbar nav a {
+    color: white;
+    font-size: 16px;
+    margin: 0px;
+}
 
-    .hamburguer {
-       display: flex;
-       font-weight: bold;
-       font-size: 36px;
-    }
+.menu.Show {
+    display: flex;
+    justify-content: center;
+}
 
-    .hamburguer:hover {
-      color: #25d366;
-    }
+.hamburguer {
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+}
 
-    
+.hamburguer:hover {
+    color: #25d366;
+}
+
+
 .texto-fixo h1 {
-     font-size: 38px;
-     padding: 5px;
+    font-size: 30px;
+    padding: 5px;
 }
 
 .texto-fixo h2 {
-     font-size: 28px;
-     padding: 5px;
+    font-size: 25px;
+    padding: 5px;
 }
 
 .texto-fixo p {
-     font-size: 18px;
-     padding: 5px;
+    font-size: 18px;
+    padding: 5px;
 }
 .texto-fixo {
-    margin-top: 55px;
-    height: 80%;
+    margin-top: 33px;
+    height: auto;
 }
 
 #cta {
-    margin-right: 20px;
+    margin-right: 0px;
+    padding: 9px  20px;
 }
 
 #carvani {
-    margin-left: 20px;
-    padding: 10px;
+    margin-left: 0px;
 }
 
+#sec2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#camera img {
+    margin: auto;
+    width: 40%;
+}
+
+#sobre_nos {
+   margin-bottom: 100px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 15px;
+}
+
+#sobre_nos h1, h2 {
+    font-size: 24px;
+}
+
+#sobre_nos p {
+    text-align: left;
+    font-size: 14px;
+}
+
+.sobre {
+    padding: 5px;
+    width: 240px;
+}
+
+#sec3 {
+    margin-top: 0px;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; 
+    scrollbar-width: none;
+}
+
+.servico  {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 470px;
+}
+
+#h1sober{
+    top:100px;
 }
