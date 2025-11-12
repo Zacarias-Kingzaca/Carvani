@@ -282,3 +282,57 @@ nav {
     cursor: pointer;
     transform: scale(1.08);
 }
+
+
+#sec4 {
+      height: 100vh;
+      width: 100vw;
+}
+
+.com {
+    display: flex;
+    scroll-snap-type: x mandatory; 
+    overflow: auto;
+    gap: 30px;
+    background-color: black;
+    padding-top: 100px;
+}
+
+.comentario {
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    background-color: #25d3654f;
+    padding: 20px;
+    border-radius: 10px;   
+    box-shadow: 1px 1px 16px 6px #02ac4025;
+    margin: 20px;
+    flex: 0 0 auto; 
+    transition: background-color 0.3s ease-in;
+    scrollbar-width: thin;
+}
+
+
+
+.comentario:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+    background-color:#055825;
+}
+
+span {
+    font-size: 20px;
+    color: #25d366;
+    font-weight: bold;
+    position: relative;
+    bottom: 12px;
+    right: -12px;
+}
+
+.COMimg img {
+    width: 10%;
+    border-radius: 50%;
+    margin: 1px;
+    margin-top: 10px;
+   
+ }

@@ -114,3 +114,22 @@
 #h1sober{
     top:100px;
 }
+
+.com {
+    gap: 20px;
+    background-color: black;
+    padding-top: 40px;
+    scrollbar-width: none;
+}
+
+.comentario {
+    width: 290px;
+}
+
+.COMimg img{
+    width: 16%;
+}
+
+span {
+    bottom: 10px;
+}
